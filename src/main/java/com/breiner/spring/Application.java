@@ -3,6 +3,8 @@ package com.breiner.spring;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import java.util.Collections;
+
 
 //Aqui es donde corre el codigo
 @SpringBootApplication
@@ -11,7 +13,10 @@ public class Application {
 	public static void main(String[] args) {
 
 		//Es el metodo encargado de iniciar la aplicacion
-		var ctx = SpringApplication.run(Application.class, args);
+		var app = new SpringApplication(Application.class);
+		//Elegir el entorno
+		app.setDefaultProperties(Collections.singletonMap("spring.profiles.active", "dev"));
+		var ctx = app.run(args);
 
 		//En vez de instanciar la clase usa la inyeccion de dependencias
 		MyFirstService myFirstService = ctx.getBean(MyFirstService.class);
