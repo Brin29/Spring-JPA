@@ -1,4 +1,4 @@
-package com.breiner.spring;
+/*package com.breiner.spring;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
@@ -60,7 +60,7 @@ public class MyFirstService {
     };
     */
 
-
+/*
     public  String tellAStory(){
         return "The dependency is saying :" + myFirstClass.sayHello();
     }
@@ -100,6 +100,6 @@ public class MyFirstService {
     public void setEnvironment(Environment environment){
         this.environment = environment;
     }
-    */
 
 }
+*/

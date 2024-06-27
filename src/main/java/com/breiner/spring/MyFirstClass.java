@@ -1,4 +1,4 @@
-package com.breiner.spring;
+/*package com.breiner.spring;
 
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
@@ -25,3 +25,5 @@ public class MyFirstClass {
         return "Hello from the MyFirstClass ==> myVar = " + myVar;
     }
 }
+
+ */

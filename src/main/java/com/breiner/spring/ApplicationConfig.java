@@ -1,4 +1,4 @@
-package com.breiner.spring;
+/*package com.breiner.spring;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.*;
@@ -33,3 +33,4 @@ public class ApplicationConfig {
         return new MyFirstClass("Third Bean");
     }
 }
+*/
