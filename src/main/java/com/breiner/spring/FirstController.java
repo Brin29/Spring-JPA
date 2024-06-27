@@ -28,5 +28,12 @@ public class FirstController {
         return  "Request Accepted and message is :" + message;
     }
 
+    @PostMapping("/post-order")
+    //String message es el body
+    //A SpringBoot se le debe definir que es cada cosa body
+    public String post(@RequestBody  Order order) {
+        return  "Request Accepted and order is :" + order.toString();
+    }
+
 
 }
