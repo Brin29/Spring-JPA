@@ -2,6 +2,7 @@ package com.breiner.spring;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+//poos plain old java objects
 public class Order {
 
     @JsonProperty("c-name")
