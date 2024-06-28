@@ -43,6 +43,8 @@ public class FirstController {
     }
 
 
+    // Path Variable
+
     // http://localhost:8080/hello/breiner
     //PathVariable para identificar que el parametro {va a ser el del parametro}
     //@GetMapping("/hello/{user-name}")
@@ -50,7 +52,7 @@ public class FirstController {
         return "my value = " + userName;
     }
 
-    
+    // Request param
     // http://localhost:8080/hello?param_name=paramvalue&param_name_2=value_2
     @GetMapping("/hello")
     public String paramVar(
