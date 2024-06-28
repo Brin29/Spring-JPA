@@ -43,4 +43,10 @@ public class FirstController {
     }
 
 
+    // http://localhost:8080/hello/breiner
+    //PathVariable para identificar que el parametro {va a ser el del parametro}
+    @GetMapping("/hello/{user-name}")
+    public String pathVar(@PathVariable("user-name") String userName){
+        return "my value = " + userName;
+    }
 }
