@@ -43,8 +43,9 @@ public class FirstController {
     }
 
 
+    //PathVar and Request param are anotation for extractin values for the url
     // Path Variable
-
+    //Extrar valores de la URL cuando es parte de la URL
     // http://localhost:8080/hello/breiner
     //PathVariable para identificar que el parametro {va a ser el del parametro}
     //@GetMapping("/hello/{user-name}")
@@ -53,6 +54,7 @@ public class FirstController {
     }
 
     // Request param
+    //Cuando el valor es enviado como una consulta
     // http://localhost:8080/hello?param_name=paramvalue&param_name_2=value_2
     @GetMapping("/hello")
     public String paramVar(
