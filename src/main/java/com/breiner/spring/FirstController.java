@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 public class FirstController {
 
     //Mapear la peticion get de una url
-    //@GetMapping("/hello")
+    @GetMapping("/hello")
     public String sayHello(){
         return "Hello from my first controller";
     }
