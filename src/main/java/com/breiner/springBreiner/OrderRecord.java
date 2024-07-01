@@ -1,4 +1,4 @@
-package com.breiner.spring;
+package com.breiner.springBreiner;
 
 //Record
 // Worked for represent request body

@@ -1,4 +1,4 @@
-package com.breiner.spring;
+package com.breiner.springBreiner;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

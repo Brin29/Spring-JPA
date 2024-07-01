@@ -1,9 +1,7 @@
-package com.breiner.spring;
+package com.breiner.springBreiner;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-import java.util.Collections;
 
 
 //Aqui es donde corre el codigo
